@@ -1,0 +1,28 @@
+<Window x:Class="Ejercicios_Cap6_Cap7.Ejercicos_Cap7_Colecciones.Ejercicio1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicios_Cap6_Cap7.Ejercicos_Cap7_Colecciones"
+        mc:Ignorable="d"
+        Title="Ejercicio1" Height="450" Width="800">
+    <Grid>
+        <Label Content="Cantidad" HorizontalAlignment="Left" Margin="30,36,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox  x:Name="Cantidad" HorizontalAlignment="Left" Margin="115,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" FontWeight="Bold"/>
+
+        <Label Content="Calificacion" HorizontalAlignment="Left" Margin="30,79,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="Calificacion" HorizontalAlignment="Left" Margin="115,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" FontWeight="Bold"/>
+
+        <Button Content="Agregar" HorizontalAlignment="Left" Margin="89,164,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Click="ClickButton_Agregar"/>
+        <Button Content="Calcular" HorizontalAlignment="Left" Margin="160,164,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Click="ClickButton_Calcular"/>
+
+        <Label Content="Promedio" HorizontalAlignment="Left" Margin="30,217,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <TextBox  x:Name="promedio1"  HorizontalAlignment="Left" Margin="128,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" FontWeight="Bold"/>
+
+        <Label Content="Mayor" HorizontalAlignment="Left" Margin="30,251,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <TextBox  x:Name="mayor1" HorizontalAlignment="Left" Margin="128,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" FontWeight="Bold"/>
+
+        <Label Content="Menor" HorizontalAlignment="Left" Margin="30,285,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <TextBox x:Name="menor1" HorizontalAlignment="Left" Margin="128,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" FontWeight="Bold"/>
+    </Grid>
+</Window>
